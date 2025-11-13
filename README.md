@@ -3,6 +3,12 @@
 A multi-agent travel planning application that creates comprehensive itineraries using Azure AI Foundry's agent orchestration capabilities.
 
 
+## ⚠️ Important Disclaimer
+
+**This is a demonstration application.** The Flight Agent and Hotel Agent generate realistic-looking fictional data for demonstration purposes only. This application is **not connected to any real travel booking APIs** or live travel data sources. Please do not use this information for actual travel planning or booking.
+
+
+
 ## 🤖 How It Works
 
 This application uses a **multi-agent architecture** built in Azure AI Foundry to generate detailed travel itineraries.
