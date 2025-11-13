@@ -86,6 +86,15 @@ st.sidebar.markdown("""
 st.title("🧳 AI Travel Planner")
 st.write("Plan your next adventure with AI-powered itinerary suggestions using our multi-agent system.")
 
+# Add disclaimer
+st.warning(
+    "⚠️ **Important Disclaimer:** This is a demonstration application. "
+    "The Flight Agent and Hotel Agent generate realistic-looking fictional data for "
+    "demonstration purposes only. This application is **not connected to any real travel "
+    "booking APIs** or live travel data sources. Please do not use this information for "
+    "actual travel planning or booking."
+)
+
 col1, col2 = st.columns(2)
 
 with col1:
